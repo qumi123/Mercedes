@@ -1,0 +1,33 @@
+header {
+    background-color: black;
+
+    .menu__top {
+        a {
+            font-size: 12px;
+            color: grey !important;
+        }
+
+    }
+
+    .logo {
+        img {
+            width: 112px;
+        }
+
+        margin: 3rem 0;
+        text-align: center;
+    }
+
+    .menu__bottom {
+        margin: auto;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin-right: 50px;
+            font-size: 1rem;
+            color: white !important;
+        }
+    }
+}

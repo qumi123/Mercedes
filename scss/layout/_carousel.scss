@@ -1,0 +1,38 @@
+#carousel {
+    .carousel-1 {
+        background-image: url("../../img/mercedes-benz-superplastic-superdackel-homepage-3400x2160-01-2023.webp");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+
+        .brand {
+            color: white;
+            margin-left: 10rem;
+            padding-top: 10%;
+        }
+    }
+
+    .carousel-2 {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        height: 100vh;
+        .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            video {
+                width: 100vw;
+            }
+        }
+        .brand{
+            color: white;
+            margin-left: 10rem;
+            z-index: 1;
+        }
+    }
+
+}

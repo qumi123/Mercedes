@@ -1,0 +1,10 @@
+.btn-mercedes{
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    transition: all 0.5s;
+    &:hover{
+        color: white;
+        background-color: #014880;
+    }
+}
