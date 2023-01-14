@@ -1,0 +1,27 @@
+#information {
+    .inf-content {
+        @include layout(flex, 80px, 50px);
+
+        .more {
+            width: 40%;
+        }
+
+        .inf-plus {
+            font-size: 13px;
+            width: 85%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            row-gap: 10px;
+            .plus a{
+                float: left;
+                width: 100%;
+                color: #767676;
+            }
+            a:hover{
+                color: white;
+                transition: all 0.5s;
+                text-decoration: none;
+            }
+        }
+    }
+}

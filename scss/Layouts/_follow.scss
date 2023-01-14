@@ -1,0 +1,27 @@
+#follow-us {
+    @include follow-us($color-white-3, 80px);
+    @include styleText(14px, 400, black);
+
+    .follow-us {
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    a {
+        @include icon(none, black);
+
+        i {
+            font-size: 30px;
+        }
+    }
+    
+
+    .social-media {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
