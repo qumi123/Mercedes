@@ -1,0 +1,38 @@
+#services {
+    .services-content {
+        @include layout(flex, 200px, 50px);
+
+        .nav {
+            width: 28%;
+
+            li a {
+                color: #767676;
+            }
+        }
+
+        .nav-pills .nav-link.active {
+            background: none;
+            color: white;
+        }
+
+    }
+
+    .tab-content {
+        color: #767676;
+
+        ul {
+            list-style: none;
+            font-size: 17px;
+            padding-top: 10px;
+            li:hover{
+                color: white;
+                cursor: pointer;
+                transition: all 0.5s;
+            }
+        }
+    }
+    .clear{
+        clear: both;
+    }
+
+}

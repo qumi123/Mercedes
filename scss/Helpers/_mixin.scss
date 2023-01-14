@@ -1,0 +1,18 @@
+@mixin styleText($fs,$fw,$color) {
+    font-size:$fs ;
+    font-weight:$fw ;
+    color:$color ;
+}
+@mixin follow-us($bg, $pd){
+    background-color: $bg;
+    padding: $pd;
+}
+@mixin icon($td, $colicon){
+    text-decoration: $td;
+    color: $colicon;
+}
+@mixin layout($display, $pt, $pb){
+    display: $display;
+    padding-top: $pt;
+    padding-bottom: $pb;
+}

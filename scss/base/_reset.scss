@@ -2,5 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans Tangsa', sans-serif;
 }
+html,body{
+    font-family: 'Roboto', sans-serif;
+    @include styleText($fs-1,$fw-1,$color-white-1);
+    background-color: black;
+}
+

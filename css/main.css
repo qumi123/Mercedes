@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #f5f9fe;
+  background-color: black;
+}
+
+hr {
+  color: #767676;
+  background: #767676;
+  border: 0;
+  height: 1px;
+  margin: 80px 0px;
+}
+
+#follow-us {
+  background-color: #fff;
+  padding: 80px;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+#follow-us .follow-us {
+  text-align: center;
+}
+#follow-us h1 {
+  margin-bottom: 50px;
+}
+#follow-us a {
+  text-decoration: none;
+  color: black;
+}
+#follow-us a i {
+  font-size: 30px;
+}
+#follow-us .social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#services .services-content {
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+#services .services-content .nav {
+  width: 28%;
+}
+#services .services-content .nav li a {
+  color: #767676;
+}
+#services .services-content .nav-pills .nav-link.active {
+  background: none;
+  color: white;
+}
+#services .tab-content {
+  color: #767676;
+}
+#services .tab-content ul {
+  list-style: none;
+  font-size: 17px;
+  padding-top: 10px;
+}
+#services .tab-content ul li:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#services .clear {
+  clear: both;
+}
+
+#information .inf-content {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+#information .inf-content .more {
+  width: 40%;
+}
+#information .inf-content .inf-plus {
+  font-size: 13px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+}
+#information .inf-content .inf-plus .plus a {
+  float: left;
+  width: 100%;
+  color: #767676;
+}
+#information .inf-content .inf-plus a:hover {
+  color: white;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+#notes {
+  display: flex;
+  flex-direction: column;
+}
+#notes .notes-content p {
+  color: #767676;
+}
+#notes .notes-content p span {
+  margin-right: 10px;
+}
+#notes .notes-content p a {
+  color: white;
+}
+#notes .notes-content p a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+#notes .notes-content sub {
+  bottom: 0px;
+  line-height: 1.5;
+}
+#notes .notes-content .notes-plus {
+  display: grid;
+  grid-template-columns: 1.8rem 1fr;
+}
+
+#footer .footer-content {
+  display: flex;
+}
+#footer .footer-content .footer-menu {
+  width: 80%;
+}
+#footer .footer-content .footer-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-content .footer-menu ul li a {
+  text-decoration: none;
+  color: #767676;
+}
+#footer .footer-content .footer-menu ul a:hover {
+  color: white;
+  transition: all 0.5s;
+}
+#footer .footer-content .footer-language {
+  width: 20%;
+  text-align: right;
+}
+#footer .footer-content .footer-language span:nth-child(1),
+#footer .footer-content .footer-language span:nth-child(2) {
+  color: #767676;
+}
+#footer .footer-logo {
+  text-align: center;
+}
+#footer .footer-logo img {
+  width: 60%;
+}
+#footer .backTop #myBtn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  background: none;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

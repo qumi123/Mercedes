@@ -1,0 +1,28 @@
+#notes {
+    display: flex;
+    flex-direction: column;
+
+    .notes-content {
+        p {
+            color: #767676;
+            span{
+                margin-right: 10px;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: white;
+                transition: all 0.5s;
+            }
+        }
+        sub{
+            bottom: 0px;
+            line-height: 1.5;
+        }
+        .notes-plus{
+            display: grid;
+            grid-template-columns: 1.8rem 1fr;
+        }
+    }
+}

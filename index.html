@@ -2,232 +2,325 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Font Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <!-- style -->
-    <link rel="stylesheet" href="./css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Animated  -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header>
-        <div class="header__top menu__top">
-            <nav class="navbar navbar-expand-md">
-                <!-- Brand -->
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <!-- follow us -->
+  <section id="follow-us">
+    <div class="follow-us animate__animated animate__fadeIn animate__delay-2s">
+      <h1>Follow Mercedes-Benz</h1>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+  <!-- services -->
+  <section id="services">
+    <div class="container">
+      <div class="services-content">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills animate__animated animate__fadeInLeft animate__delay-2s">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#purChase">
+              <h1>Purchase</h1>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#fiNance">
+              <h1>Finance</h1>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#serVices">
+              <h1>Services</h1>
+            </a>
+          </li>
+        </ul>
 
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav navbar__right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Deutsch</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Provider/Privacy</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav navbar__left ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Search</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <!-- Tab panes -->
+        <div class="tab-content animate__animated animate__fadeInRight animate__delay-2s">
+          <div class="tab-pane container active" id="purChase">
+            <ul>
+              <li>Vehicles</li>
+              <li>Accessories</li>
+              <li>Mercedes me</li>
+              <li>Lifestyle Collection</li>
+              <li>Classic Cars</li>
+            </ul>
+          </div>
+          <div class="tab-pane container fade" id="fiNance">
+            <ul>
+              <li>Leasing</li>
+              <li>Rent</li>
+              <li>Insurance</li>
+            </ul>
+          </div>
+          <div class="tab-pane container fade" id="serVices">
+            <ul>
+              <li>Mercedes me</li>
+              <li>Service & Parts</li>
+              <li>Driving Aids</li>
+            </ul>
+          </div>
         </div>
-        <div class="logo">
-            <img src="./img/logo.png" alt="">
+      </div>
+      <hr>
+  </section>
+
+  <!-- information -->
+  <section id="information">
+    <div class="container">
+      <div class="inf-content animate__animated animate__fadeInUp animate__delay-2s">
+        <div class="more">
+          <h2>More</h2>
         </div>
-        <div class="header__bottom menu__bottom">
-            <nav class="navbar navbar-expand-md">
-                <!-- Brand -->
-                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <div class="inf-plus">
+          <div class="plus">
+            <p>About us</p>
+            <a href="#">Mercedes-Benz Group AG</a>
+            <a href="#">Business Units</a>
+            <a href="#">Investors</a>
+            <a href="#">Press</a>
+          </div>
+          <div class="plus">
+            <p>Careers</p>
+            <a href="#">Job Search</a>
+            <a href="#">Professionals</a>
+            <a href="#">Graduates</a>
+            <a href="#">Students</a>
+            <a href="#">Talent Programs</a>
+          </div>
+          <div class="plus">
+            <p>Knowledge Center</p>
+            <a href="#">Consumption & Emissions</a>
+            <a href="#">Mercedes-Benz Energy Storage</a>
+            <a href="#">Real Driving Emissions</a>
+            <a href="#">Semiconductor Availability</a>
+            <a href="#">UN 38.3 Test</a>
+          </div>
+          <div class="plus">
+            <p>Business Services</p>
+            <a href="#">Fleet Sales</a>
+            <a href="#">International Diplomatic Sales</a>
+            <a href="#">Training for Authorized Dealers</a>
 
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Art & Culture</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sustainability</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Innovation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Exclusive</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Vehicles</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+          </div>
         </div>
-    </header>
-    <!-- carousel -->
-    <section id="carousel">
-        <div class="carousel-1">
-            <div class="brand">
-                <h1>
-                    Meeting the <br>
-                    unexpected: <br>
-                    Mercedes-Benz x <br>
-                    SUPERPLASTIC. <br>
-                </h1>
-                <p>Two worlds unite.</p>
-                <button class="btn-mercedes">Discover more <i class="fa-solid fa-chevron-right"></i></button>
-            </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!-- notes -->
+  <section id="notes">
+    <div class="container">
+      <div class="notes-content">
+        <p>
+          <span>
+            <i class="fa-solid fa-plug"></i>
+            Stromverbrauch kombiniert²
+          </span>
+          <span>
+            <i class="fa-solid fa-gas-pump"></i>
+            Kraftstoffverbrauch kombiniert¹ ²
+          </span>
+          <span>
+            <i class="fa-solid fa-leaf"></i>
+            CO₂-Emissionen kombiniert¹
+          </span>
+        </p>
+        <p class="notes-plus">
+          <sub>1</sub>
+          <span>Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um die
+            „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die Kraftstoffverbrauchswerte
+            wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG
+            ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen
+            CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die
+            CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen
+            Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich
+            erhältlich ist.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>2</sub>
+          <span>Die angegebenen Werte sind die „gemessenen NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 2 Durchführungsverordnung
+            (EU) 2017/1153, die im Einklang mit Anhang XII der Verordnung (EG) Nr. 692/2008 ermittelt wurden. Die
+            Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der
+            Grundlage der VO 692/2008/EG ermittelt. Aufgrund gesetzlicher Änderungen der maßgeblichen Prüfverfahren
+            können in der für die Fahrzeugzulassung und ggf. Kfz-Steuer maßgeblichen Übereinstimmungsbescheinigung des
+            Fahrzeugs höhere Werte eingetragen sein. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den
+            offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den
+            Kraftstoffverbrauch und die CO₂-Emissionen neuer Personenkraftwagen“ entnommen werden, der an allen
+            Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich
+            erhältlich ist.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>3</sub>
+          <span>
+            Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um
+            „WLTP-CO₂-Werte“ i. S. v. Art. 2 Nr. 3 Durchführungsverordnung (EU) 2017/1153. Die Kraftstoffverbrauchswerte
+            wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG
+            ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen
+            CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die
+            CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen
+            Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich
+            erhältlich ist.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>4</sub>
+          <span>
+            Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom Technischen
+            Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte
+            korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor.
+            Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>5</sub>
+          <span>
+            Angaben zum Kraftstoffverbrauch und CO₂-Emissionen sind vorläufig und wurden vom Technischen Dienst für das
+            Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt. Eine EG-Typgenehmigung und
+            Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und
+            den amtlichen Werten sind möglich.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>6</sub>
+          <span>
+            Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch und
+            Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen
+            Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem
+            „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen
+            Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil
+            Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich erhältlich ist.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>7</sub>
+          <span>Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das
+            Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und eine
+            Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und
+            den amtlichen Werten sind möglich.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>8</sub>
+          <span>Alle technischen Angaben sind vorläufig und wurden intern nach Maßgabe der jeweils anwendbaren
+            Zertifizierungsmethode ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine
+            EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den
+            Angaben und den amtlichen Werten sind möglich.</span>
+        </p>
+        <p class="notes-plus">
+          <sub>9</sub>
+          <span>
+            Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen
+            neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den
+            Stromverbrauch aller neuen Personenkraftwagenmodelle” entnommen werden, der an allen Verkaufsstellen und bei
+            der Deutschen Automobil Treuhand GmbH unter <a href="#">www.dat.de</a> unentgeltlich erhältlich ist.</span>
+        </p>
+      </div>
+      <hr>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-menu">
+          <ul>
+            <li>
+              <a href="#">Provider</a>
+            </li>
+            <li>
+              <a href="#">Legal Notice</a>
+            </li>
+            <li>
+              <a href="#">Cookies</a>
+            </li>
+            <li>
+              <a href="#">Privacy Statement</a>
+            </li>
+            <li>
+              <a href="#">Newsroom</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Do Not Sell My Personal Information (CCPA)</a>
+            </li>
+          </ul>
         </div>
-        <div class="carousel-2">
-            <div class="brand">
-                <h1>
-                    Mercedes-Benz <br>
-                    and Avatar.
-                </h1>
-                <button class="btn-mercedes">Discover more <i class="fa-solid fa-chevron-right"></i></button>
-            </div>
-            <div class="video">
-                <video autoplay loop muted
-                    src="./img/mercedes-benz-avatar-homepage-video-03-3840x2160-10-2022.cbv20221201151452.mp4"></video>
-            </div>
+        <div class="footer-language">
+          <span>Deutsch </span>
+          <span> | </span>
+          <span> English</span>
+        </div>
+      </div>
+      <div class="footer-logo">
+        <img src="./img/Mercedes.jpg" alt="">
+        <div class="backTop">
+          <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
 
         </div>
+      </div>
+    </div>
+  </section>
 
-    </section>
-    <!-- information -->
-    <section id="information">
-        <div class="innovation">
-            <div class="text">
-                <h5>Innovation</h5>
-                <h1>Welcome to the Magical Garage.</h1>
-            </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-            <div class="picture">
-                <img src="./img/mercedes-benz-home-teaser-eq-drivetrain-2784x1570-08-2022.webp" alt="">
-            </div>
+  <script>
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
 
-        </div>
-        <div class="content">
-            <div class="row">
-                <div class="col-md-5 item-1">
-                    <div class="text">
-                        <h5>Vehicles</h5>
-                        <h1>The G-Class: For those who live forever.</h1>
-                    </div>
-                    <div class="picture">
-                        <img src="./img/mercedes-benz-home-teaser-g-class-immortal-love-954x1268-08-2022.webp" alt="">
-                    </div>
-
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6 item-2">
-                    <div class="text">
-                        <h5>Sustainability</h5>
-                        <h1>The most valuable car of the world sold <br>
-                            for a record price to benefit the <br>
-                            Mercedes-Benz Fund.</h1>
-                    </div>
-                    <div class="picture">
-                        <img src="./img/mercedes-benz-home-teaser-coupe-300-slr-01-1344x756-08-2022.webp" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-5 item-3">
-                    <div class="text">
-                        <h5>Art & Culture</h5>
-                        <h1>Sunglasses for exclusive <br>
-                            visibility.</h1>
-                    </div>
-                    <div class="picture">
-                        <img src="./img/mercedes-benz-home-teaser-eye-wear-2784x1570-08-2022.webp" alt="">
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-6 item-4">
-                    <div class="text">
-                        <h5>Vehicles</h5>
-                        <h1>An icon embraces the future. The <br>
-                            Concept EQG.</h1>
-                    </div>
-                    <div class="picture">
-                        <img src="./img/mercedes-benz-home-teaser-concept-eqg-954X1268-08-2022.jpeg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="highlight">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="text">
-                        <h5>Vehicles</h5>
-                        <h1>50 years of the 116 <br>
-                            series.</h1>
-                        <p>These are the powerful attributes of the S-Class. The first luxury saloon to bear this name
-                            made its debut 50 years ago: a new star was born! The abbreviation stands for “special
-                            class”, but could just as well symbolise “style” or “star”. Today, the Mercedes-Benz 116
-                            series inspires people just as much as it did in 1972.</p>
-                        <button class="btn-mercedes">Find out more<i class="fa-solid fa-chevron-right"></i></button>
-                    </div>
-
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-5">
-                    <div class="picture">
-                        <img src="./img/mercedes-benz-home-teaser-classic-w116-1570x2784-08-2022.jpeg" alt="">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <br><br><br><br><br><br><br>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 </body>
 
 </html>
