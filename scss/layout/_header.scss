@@ -5,7 +5,13 @@ header {
         a {
             font-size: 12px;
             color: grey !important;
+            transition: all 0.5s;
+
+            &:hover {
+                color: white !important;
+            }
         }
+
 
     }
 

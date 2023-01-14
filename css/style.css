@@ -15,12 +15,20 @@
   background-color: #014880;
 }
 
+.svg {
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;
+}
+
 header {
   background-color: black;
 }
 header .menu__top a {
   font-size: 12px;
   color: grey !important;
+  transition: all 0.5s;
+}
+header .menu__top a:hover {
+  color: white !important;
 }
 header .logo {
   margin: 3rem 0;
@@ -82,7 +90,7 @@ header .menu__bottom a {
   margin: 5rem 0 2rem 20rem;
 }
 #information .innovation .text h1 {
-  margin-top: 2rem;
+  padding-top: 2rem;
   font-size: 3.5rem;
   font-weight: lighter;
 }
