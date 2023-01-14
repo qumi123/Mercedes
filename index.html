@@ -16,9 +16,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Animated  -->
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -27,9 +25,203 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="./css/main.css">
+  <!-- style -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+  <!-- header -->
+  <header>
+    <div class="header__top menu__top">
+      <nav class="navbar navbar-expand-md">
+        <!-- Brand -->
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav navbar__right">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Deutsch</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">English</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Provider/Privacy</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar__left ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="logo">
+      <img src="./img/logo.png" alt="">
+    </div>
+    <div class="header__bottom menu__bottom">
+      <nav class="navbar navbar-expand-md">
+        <!-- Brand -->
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Art & Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sustainability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Innovation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exclusive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vehicles</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- carousel -->
+  <section id="carousel">
+    <div class="carousel-1">
+      <div class="brand">
+        <h1>
+          Meeting the <br>
+          unexpected: <br>
+          Mercedes-Benz x <br>
+          SUPERPLASTIC. <br>
+        </h1>
+        <p>Two worlds unite.</p>
+        <button class="btn-mercedes">Discover more <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+    <div class="carousel-2">
+      <div class="brand">
+        <h1>
+          Mercedes-Benz <br>
+          and Avatar.
+        </h1>
+        <button class="btn-mercedes">Discover more <i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="video">
+        <video autoplay loop muted
+          src="./img/mercedes-benz-avatar-homepage-video-03-3840x2160-10-2022.cbv20221201151452.mp4"></video>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- information -->
+  <section id="information">
+    <div class="innovation">
+      <div class="text">
+        <h5>Innovation</h5>
+        <h1>Welcome to the Magical Garage.</h1>
+      </div>
+
+      <div class="picture">
+        <img src="./img/mercedes-benz-home-teaser-eq-drivetrain-2784x1570-08-2022.webp" alt="">
+      </div>
+
+    </div>
+    <div class="content">
+      <div class="row">
+        <div class="col-md-5 item-1">
+          <div class="text">
+            <h5>Vehicles</h5>
+            <h1>The G-Class: For those who live forever.</h1>
+          </div>
+          <div class="picture">
+            <img src="./img/mercedes-benz-home-teaser-g-class-immortal-love-954x1268-08-2022.webp" alt="">
+          </div>
+
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 item-2">
+          <div class="text">
+            <h5>Sustainability</h5>
+            <h1>The most valuable car of the world sold <br>
+              for a record price to benefit the <br>
+              Mercedes-Benz Fund.</h1>
+          </div>
+          <div class="picture">
+            <img src="./img/mercedes-benz-home-teaser-coupe-300-slr-01-1344x756-08-2022.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 item-3">
+          <div class="text">
+            <h5>Art & Culture</h5>
+            <h1>Sunglasses for exclusive <br>
+              visibility.</h1>
+          </div>
+          <div class="picture">
+            <img src="./img/mercedes-benz-home-teaser-eye-wear-2784x1570-08-2022.webp" alt="">
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 item-4">
+          <div class="text">
+            <h5>Vehicles</h5>
+            <h1>An icon embraces the future. The <br>
+              Concept EQG.</h1>
+          </div>
+          <div class="picture">
+            <img src="./img/mercedes-benz-home-teaser-concept-eqg-954X1268-08-2022.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="highlight">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="text">
+            <h5>Vehicles</h5>
+            <h1>50 years of the 116 <br>
+              series.</h1>
+            <p>These are the powerful attributes of the S-Class. The first luxury saloon to bear this name
+              made its debut 50 years ago: a new star was born! The abbreviation stands for “special
+              class”, but could just as well symbolise “style” or “star”. Today, the Mercedes-Benz 116
+              series inspires people just as much as it did in 1972.</p>
+            <button class="btn-mercedes">Find out more<i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <div class="picture">
+            <img src="./img/mercedes-benz-home-teaser-classic-w116-1570x2784-08-2022.jpeg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- follow us -->
   <section id="follow-us">
     <div class="follow-us animate__animated animate__fadeIn animate__delay-2s">
